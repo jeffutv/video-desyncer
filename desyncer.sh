@@ -6,6 +6,9 @@
 #  Created by Jeffu Warmouth on 9/21/18.
 #
 
+import RPi.GPIO as GPIO
+import time
+
 if [!/media/usb]; then
     sudo mkdir /media/usb
 fi
